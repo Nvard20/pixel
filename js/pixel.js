@@ -35,6 +35,8 @@ $("input[type=checkbox]").click(function() {
         setTimeout(function() {
             $('body').css("background-color", "#4d4040")
             $('#mySidenav').css("background-color", "#797272")
+            $('h1').css("color", "#fff")
+
 
 
         }, 300);
@@ -42,6 +44,8 @@ $("input[type=checkbox]").click(function() {
         setTimeout(function() {
             $('body').css("background-color", "white")
             $('#mySidenav').css("background-color", "#F4F6FD")
+            $('h1').css("color", "#000")
+
 
         }, 300);
     }
