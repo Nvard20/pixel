@@ -473,9 +473,15 @@ header {
     .wizard {
         left: unset !important;
     }
+    .number-page{
+display: none;
+    }
 }
 
 @media(max-width:1100px) {
+    .number-page{
+        display: block;
+            }
     .main-container {
         max-width: 1330px;
         margin: auto;
@@ -548,17 +554,20 @@ header {
 }
 
 @media(max-width:800px) {
+    .light {
+        display: flex;
+        width: 394px;
+        margin: auto;
+    }
     .list {
-        width: 548px;
         margin: auto;
     }
     .list>h2 {
         text-align: center;
-        padding: 23px 85px 0px 170px;
+        padding: unset;
         margin-bottom: 25px;
     }
     .list>a {
-        padding: 23px 85px 0px 170px;
         text-align: center;
     }
     .open1>a {
@@ -566,7 +575,6 @@ header {
     }
     .light {
         display: flex;
-        justify-content: center;
     }
 }
 
@@ -580,6 +588,14 @@ header {
 }
 
 @media(max-width:500px) {
+    .sidenav > a{
+        margin-top: 20px;
+padding: unset;
+    }
+    .closebtn{
+        margin-left: -44px;
+
+    }
     .number-page {
         display: none;
     }
@@ -603,7 +619,6 @@ header {
     }
     .social {
         display: flex;
-        width: 176px;
         margin: auto;
     }
     .square {

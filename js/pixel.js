@@ -1,11 +1,11 @@
 function openNav() {
-    var x = window.matchMedia("(max-width: 600px)");
+    var x = window.matchMedia("(max-width: 800px)");
     var y = window.matchMedia("(max-width: 1920px)");
     var z = window.matchMedia("(max-width: 500px)");
     var a = window.matchMedia("(max-width: 330px)");
 
-    if (x.matches) {
-        document.getElementById("mySidenav").style.width = "572px";
+    if (y.matches) {
+        document.getElementById("mySidenav").style.width = "100%";
         console.log("jjjjjj")
 
     }
@@ -15,11 +15,11 @@ function openNav() {
 
     }
     if (z.matches) {
-        document.getElementById("mySidenav").style.width = "517px";
+        document.getElementById("mySidenav").style.width = "100%";
 
     }
     if (a.matches) {
-        document.getElementById("mySidenav").style.width = "466px";
+        document.getElementById("mySidenav").style.width = "100%";
 
     }
 }
@@ -36,6 +36,8 @@ $("input[type=checkbox]").click(function() {
             $('body').css("background-color", "#4d4040")
             $('#mySidenav').css("background-color", "#797272")
             $('h1').css("color", "#fff")
+            $('p').css("color", "#fff")
+
 
 
 
@@ -45,6 +47,8 @@ $("input[type=checkbox]").click(function() {
             $('body').css("background-color", "white")
             $('#mySidenav').css("background-color", "#F4F6FD")
             $('h1').css("color", "#000")
+            $('p').css("color", "#000")
+
 
 
         }, 300);
