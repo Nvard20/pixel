@@ -477,7 +477,9 @@ header {
 display: none;
     }
 }
-
+.number-page{
+    display: none;
+}
 @media(max-width:1100px) {
     .number-page{
         display: block;
